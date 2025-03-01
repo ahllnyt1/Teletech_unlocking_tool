@@ -36,6 +36,44 @@
         .buttons {
             margin-top: 20px;
         }
+  }
+        .pricing {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .price {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #002244;
+        }
+        .features {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .features p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        .checkmark {
+            color: green;
+            font-weight: bold;
+        }
+        .cross {
+            color: red;
+            font-weight: bold;
+        }
         .btn {
             display: inline-block;
             padding: 12px 25px;
@@ -116,7 +154,7 @@
     </div>
 
     <!-- Features Section -->
-    <div class="features">
+    <div class="card">
         <h2>Teletech Hub Unlocking Pro - Features</h2>
         <div class="feature-list">
             <div class="feature">✅ Our Dedicated Support</div>
